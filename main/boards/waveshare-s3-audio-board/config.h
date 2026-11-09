@@ -19,6 +19,9 @@
 #define AUDIO_INPUT_REFERENCE       true
 #define AUDIO_CODEC_ES8311_ADDR     ES8311_CODEC_DEFAULT_ADDR
 #define AUDIO_CODEC_ES7210_ADDR     ES7210_CODEC_DEFAULT_ADDR
+#define SD_CARD_CLK_GPIO   GPIO_NUM_14
+#define SD_CARD_CMD_GPIO   GPIO_NUM_15
+#define SD_CARD_D0_GPIO    GPIO_NUM_16
 
 #define I2C_SCL_IO                  GPIO_NUM_10       
 #define I2C_SDA_IO                  GPIO_NUM_11        
